@@ -1,0 +1,70 @@
+/*style for sailes hits*/
+.sailes-hits-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 73px;
+  
+}
+.sailes-hits-top__btn {
+  border: 1px solid;
+  color: #005aab;
+  border-radius: 8px;
+  padding: 13px 45px;
+}
+
+.hits-list {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hits-list-products__item {
+  position: relative;
+  height: 445px;
+  width: 270px;
+  border: 1px solid #dedee2;
+  border-radius: 8px;
+  padding: 65px 35px 30px 35px;
+  display: flex;
+}
+.hits-list-product-prices__btn {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+}
+.hits-list-product-prices span {
+  display: block;
+  
+}
+.hits-list-product-prices {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.hits-list-product-prices__old-price {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  color: #7D868F;
+}
+.hits-list-products__text {
+  display: block;
+  margin-top: 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}

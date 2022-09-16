@@ -1,0 +1,114 @@
+
+/* style for news*/
+
+.news-promotion-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 73px;
+  padding-bottom: 30px;
+  }
+  .news-promotion-items {
+    margin-bottom: 80px;
+  }
+  .news-promotion-top__btn{
+  border: 1px solid;
+  color: #005aab;
+  border-radius: 8px;
+  padding: 13px 45px;
+  }
+  .news-promotion-top__title {
+    font-size: 32px;
+  }
+  .news-promotion__item {
+    max-width: 370px;
+    height: 170px;
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+    color: white;
+  }
+  .news-promotion__item a {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 22px;
+  }
+  .news-promotion-items {
+    display: grid;
+  grid-auto-columns: repeat(3, 1fr);;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    'first first second'
+    'first first third'
+    'fifth fourth sixth';
+  grid-gap: 30px;
+  }
+  .news-promotion__item-big:nth-child(1) {
+    grid-area: first;
+    background-image:  url("../img/MAinNews/mouse.png");
+    border-radius: 8px;
+  }
+  
+  .news-promotion__item:nth-child(2) {
+    grid-area: second;
+    background-image: url("../img/MAinNews/plata.png");
+  }
+  
+  .news-promotion__item:nth-child(3) {
+    grid-area: third;
+    background-image: url("../img/MAinNews/block.png");
+  }
+  
+  .news-promotion__item:nth-child(4) {
+    grid-area: fourth;
+    background-image: url("../img/MAinNews/planshet.png");
+  }
+  
+  .news-promotion__item:nth-child(5) {
+    grid-area: fifth;
+    background-image: url("../img/MAinNews/naushniki.png");
+  }
+  
+  .news-promotion__item:nth-child(6) {
+    grid-area: sixth;
+    background-image: url("../img/MAinNews/multipekar.png");
+  }
+  
+  .news-promotion__btn {
+    width: 210px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+  }
+  .news-promotion__item-big {
+    position: relative;
+    color: white;
+  }
+  .news-promotion__btn-big{
+    width: 210px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: white;
+    position: absolute;
+    bottom: 156px;
+    left: 30px;
+  }
+ .news-promotion__item-link {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  max-width: 296px;
+  max-height: 184px;
+  font-size: 22px;
+}
+.news-promotion__item-link span {
+  display: block;
+font-size: 16px;
+padding-top: 10px;
+}

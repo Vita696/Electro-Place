@@ -1,0 +1,34 @@
+
+.popular-brends-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 73px;
+  padding-bottom: 30px;
+  }
+  .popular-brends-top__btn {
+  border: 1px solid;
+  color: #005aab;
+  border-radius: 8px;
+  padding: 13px 45px;
+  }
+  .popular-brends-top__title {
+    font-size: 32px;
+  }
+  
+  .popular-brends-list {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+  .popular-brends-list__item {
+    min-width: 270px;
+    min-height: 125px;
+    border: 1px solid #dedee2;
+    border-radius: 8px;
+  }
+  .popular-brends-list__item img{
+    display: block;
+    margin: 15% auto;
+  }

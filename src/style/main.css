@@ -1,0 +1,116 @@
+.btn_content {
+  border: 1px solid #005aab;
+  border-radius: 8px;
+  color: #005aab;
+  padding: 13px 50px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.btn_content:hover {
+  border: 1px solid blue;
+  color: white;
+  background-color: #1282e4;
+}
+.main-title {
+  font-size: 32px;
+}
+
+.btn_content__hidden {
+  display: none;
+  border: 1px solid #005aab;
+  border-radius: 8px;
+  color: #005aab;
+  padding: 13px 50px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.btn_content__hidden:hover {
+  order: 1px solid blue;
+  color: white;
+  background-color: #1282e4;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.news-btn {
+  padding: 14px 65px;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  border: 1px solid inherit;
+  border-radius: 8px;
+}
+.main-title {
+  font-size: 32px;
+}
+/* стили для слайдера */
+.sliderItems img {
+  display: block;
+  max-height: 350px;
+}
+.carousel {
+  position: relative;
+}
+.carousel-caption {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  top: 20px;
+  left: 50px;
+}
+.carousel-caption h3 {
+  text-align: left;
+}
+.carousel-caption p {
+  text-align: left;
+}
+.carousel-inner {
+  border: 1px solid inherit;
+  border-radius: 8px;
+  max-width: 830px;
+}
+.main-slider {
+  display: flex;
+  align-items: center;
+}
+.main-slider-banner {
+  max-width: 300px;
+  height: 345px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #363636;
+  border: 1px solid inherit;
+  border-radius: 8px;
+  margin-left: 40px;
+}
+.main-slider-banner__title {
+  font-size: 22px;
+  color: #fff;
+}
+.main-slider-banner__btn {
+  margin-top: 10px;
+  padding: 10px 40px;
+  background-color: #fff;
+  border: 1px solid inherit;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.main-slider-banner__btn:hover {
+  background-color: #a4d4ff;
+}
+.carousel-control-prev {
+  border: 1px solid inherit;
+  border-radius: 50%;
+  padding: 4px;
+}
+.carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border: 1px solid inherit;
+  border-radius: 50%;
+}

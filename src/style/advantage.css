@@ -1,0 +1,31 @@
+
+.advantages {
+  background-color: #F1F5F7;
+  padding-top: 73px;
+  padding-bottom: 73px;
+}
+.advantages-list__title{
+  display: flex;
+  font-size: 32px;
+  justify-content: flex-start;
+}
+.advantages-list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.advantages-list__item {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: 30px;
+}
+
+.advantages-list__item h4,
+.advantages-list__item p {
+  margin-top: 20px;
+}
