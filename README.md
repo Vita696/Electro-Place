@@ -1,26 +1,26 @@
-#Electro Place
+# Electro Place
 
 Проект создания приложения на ReactJs 
 
 Desktop версия главной страницы и каталога интернет магазина бытовой техники Electro Place
 
-Стек технологий:
+## Стек технологий:
 
-HTML5
-CSS
-Методология БЭМ
-JavaScript
-React
-Bootstrap
+- HTML5
+- CSS
+- Методология БЭМ
+- JavaScript
+- React
+- Bootstrap
 
-Функциональность:
+## Функциональность:
 
-Слайдер
-Модальное окно
-Роутинг на страницу каталога и обратно
-Апи яндекс карт на главной
+- Слайдер
+- Модальное окно
+- Роутинг на страницу каталога и обратно
+- Апи яндекс карт на главной
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
