@@ -20,6 +20,9 @@ Desktop версия главной страницы и каталога инт�
 - Роутинг на страницу каталога и обратно
 - Апи яндекс карт на главной
 
+
+
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
