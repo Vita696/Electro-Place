@@ -1,6 +1,6 @@
 # Electro Place
 
-Проект создания приложения на ReactJs в рамках курса React-разработчик от Garpix Academy
+Проект создания интернет магазина на ReactJs в рамках курса React-разработчик от Garpix Academy
 
 Desktop версия главной страницы и каталога интернет магазина бытовой техники Electro Place
 
